@@ -1,6 +1,6 @@
 /*
   Створіть новий тип даних, який підходить для цих двох об'єктів.
-*/
+
 
 const page1 = {
   title: 'The awesome page',
@@ -20,4 +20,4 @@ const page2 = {
   status: 'close',
 }
 
-export {};
+export {};*/
