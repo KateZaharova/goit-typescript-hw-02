@@ -5,7 +5,7 @@
   залишивши ім'я та прізвище без змін.
 
   Виправте тип у аргументі функції так, щоб не було помилок типу.
-
+*/
 
 type User = {
   name: string;
@@ -14,10 +14,10 @@ type User = {
   password: string;
 }
 
-function createOrUpdateUser(initialValues: User) {
+function createOrUpdateUser(initialValues: Partial<User>) {
   // Оновлення користувача
 }
 
 createOrUpdateUser({ email: 'user@mail.com', password: 'password123' });
 
-export {};*/
+export { };
