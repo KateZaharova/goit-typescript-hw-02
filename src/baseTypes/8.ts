@@ -4,7 +4,7 @@
 */
 
 type Gender = {
-  sex: string | string;
+  sex: "male"| "female";
   head: number;
   leg: number;
   hand: number;

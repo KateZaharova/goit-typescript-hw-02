@@ -8,7 +8,7 @@ function showMessage(message:string):void {
 showMessage("message");
 
 
-function calc(num1: number, num2: number) {
+function calc(num1: number, num2: number):number {
   return num1 + num2;
 }
 calc(1, 2);
